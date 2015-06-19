@@ -1,0 +1,19 @@
+body {
+	font-family: 'Crimson Text', serif;
+}
+
+h1, h3 {
+	font-family: 'Bree Serif', serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.bolder {
+	font-weight: 600;
+}

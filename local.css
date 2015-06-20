@@ -19,7 +19,7 @@ body {
 }
 
 #main {
-	max-width: 500px;
+	max-width: 600px;
 	margin: 0 auto;
 	padding: 0.4em 2em;
 }
@@ -30,6 +30,11 @@ h1, h3 {
 
 a {
 	text-decoration: none;
+}
+
+.mono {
+	font-family: 'Monaco', 'Courier', monospace;
+	font-size: 0.75em;
 }
 
 .bolder {

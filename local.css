@@ -12,6 +12,7 @@ body {
 	height: 100px;
 	text-align: center;
 	margin: 0 auto;
+	border-bottom: 3px solid #d2a9f2;
 }
 
 #header h1 {

@@ -19,7 +19,7 @@ var server = http.createServer(function(req, res) {
     if (err) {
       if (err.code == 'ENOENT') {
         fs.readFile(failPage, function(err, file) {
-          res.writeHead(200, {'Content-Type': failPageContentType});
+          res.writeHead(404, {'Content-Type': failPageContentType});
           res.end(file);
         });
       } else {
